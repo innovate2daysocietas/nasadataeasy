@@ -1,0 +1,499 @@
+[
+  {
+    "category": "Rainfall & Water",
+    "name": "GPM IMERG Final Run (Daily)",
+    "description": "A carefully processed daily estimate of rain and snow from satellites and other observations.",
+    "use": "Track daily precipitation.",
+    "query": "GPM_3IMERGDF"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GPM IMERG Final Run (Half-hourly)",
+    "description": "Shows how estimated rain and snow changed during each half hour.",
+    "use": "Explore storm timing.",
+    "query": "GPM_3IMERGHH"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GPM IMERG Final Run (Monthly)",
+    "description": "Summarizes estimated precipitation over an entire month.",
+    "use": "Compare monthly rainfall.",
+    "query": "GPM_3IMERGM"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GPM IMERG Early Run",
+    "description": "A faster first estimate of precipitation that is available sooner than the final version.",
+    "use": "Rapid rainfall awareness.",
+    "query": "GPM_3IMERGHHE"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GPM IMERG Late Run",
+    "description": "A revised near-real-time precipitation estimate with more satellite inputs than the earliest run.",
+    "use": "Recent precipitation tracking.",
+    "query": "GPM_3IMERGHHL"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "TRMM 3B42 Daily",
+    "description": "An older satellite-based daily rainfall product from the Tropical Rainfall Measuring Mission.",
+    "use": "Study historic tropical rain.",
+    "query": "TRMM_3B42_Daily"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "TRMM 3B43 Monthly",
+    "description": "An older monthly tropical rainfall estimate useful for long time-series studies.",
+    "use": "Historic monthly rainfall.",
+    "query": "TRMM_3B43"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GPCP Monthly Precipitation",
+    "description": "Combines multiple observing systems to estimate precipitation across the globe by month.",
+    "use": "Long-term rainfall comparisons.",
+    "query": "GPCP Monthly"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GPCP Daily Precipitation",
+    "description": "Estimates daily precipitation over land and ocean using several sources.",
+    "use": "Track broad daily rainfall.",
+    "query": "GPCP Daily"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "SMAP L2 Radiometer Half-Orbit Soil Moisture",
+    "description": "Uses microwave measurements to estimate moisture near the land surface along satellite passes.",
+    "use": "Look at surface soil wetness.",
+    "query": "SPL2SMP"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "SMAP L3 Radiometer Global Daily Soil Moisture",
+    "description": "Maps near-surface soil moisture from SMAP observations in daily global coverage.",
+    "use": "Compare soil moisture areas.",
+    "query": "SPL3SMP"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "SMAP L3 Enhanced Soil Moisture",
+    "description": "Provides gridded surface soil moisture with enhanced spatial detail.",
+    "use": "Inspect surface moisture patterns.",
+    "query": "SPL3SMP_E"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "SMAP L4 Global 3-hourly Soil Moisture",
+    "description": "Combines satellite observations with a land model to estimate surface and root-zone soil moisture.",
+    "use": "Monitor modeled root-zone wetness.",
+    "query": "SPL4SMGP"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "SMAP L4 Global Carbon Net Ecosystem Exchange",
+    "description": "Estimates land carbon exchange using models informed by SMAP and other observations.",
+    "use": "Study land carbon flux.",
+    "query": "SPL4CMDL"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GRACE Tellus JPL Mascon Land Water",
+    "description": "Uses gravity changes to estimate shifts in water stored across large land areas.",
+    "use": "Understand large-scale water storage.",
+    "query": "GRACE JPL mascon"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GRACE-FO JPL Mascon Water Storage",
+    "description": "Continues gravity-based measurements of broad changes in water stored on and below land.",
+    "use": "Track recent storage changes.",
+    "query": "GRACE-FO JPL mascon"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GLDAS Noah Land Surface Model 3-Hourly",
+    "description": "Models soil moisture and other land-water conditions using weather information.",
+    "use": "Study modeled land water balance.",
+    "query": "GLDAS_NOAH025_3H"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "GLDAS Noah Land Surface Model Monthly",
+    "description": "Provides monthly averages of modeled soil and land-surface water conditions.",
+    "use": "Explore seasonal land-water patterns.",
+    "query": "GLDAS_NOAH025_M"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "NLDAS Noah Land Surface Model",
+    "description": "Models land moisture and energy across North America.",
+    "use": "Regional water balance research.",
+    "query": "NLDAS_NOAH0125_H"
+  },
+  {
+    "category": "Rainfall & Water",
+    "name": "MERRA-2 Land Surface Diagnostics",
+    "description": "A model-based record of soil and land conditions over time.",
+    "use": "Explore past land moisture.",
+    "query": "M2T1NXLND"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Terra Vegetation Indices 250m",
+    "description": "Uses Terra satellite observations to describe vegetation greenness over repeated periods.",
+    "use": "Monitor plant greenness.",
+    "query": "MOD13Q1"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Terra Vegetation Indices 500m",
+    "description": "Shows vegetation indices at a broader map scale.",
+    "use": "Compare vegetation health patterns.",
+    "query": "MOD13A1"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Terra Vegetation Indices 1km",
+    "description": "Provides repeated vegetation observations at a regional scale.",
+    "use": "Follow broad vegetation change.",
+    "query": "MOD13A2"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Aqua Vegetation Indices 250m",
+    "description": "Measures vegetation greenness using Aqua satellite observations.",
+    "use": "Monitor changes in plant cover.",
+    "query": "MYD13Q1"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Aqua Vegetation Indices 500m",
+    "description": "Offers repeated vegetation indices from Aqua at 500-metre detail.",
+    "use": "Track seasonal vegetation.",
+    "query": "MYD13A1"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Terra Surface Reflectance Daily",
+    "description": "Reports reflected sunlight from land in different wavelengths.",
+    "use": "Build land and vegetation maps.",
+    "query": "MOD09GA"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Aqua Surface Reflectance Daily",
+    "description": "Measures sunlight reflected from land using the Aqua satellite.",
+    "use": "Study land surface changes.",
+    "query": "MYD09GA"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Leaf Area Index / FPAR Terra",
+    "description": "Estimates the amount of leaf cover and sunlight absorbed by plants.",
+    "use": "Assess vegetation growth conditions.",
+    "query": "MOD15A2H"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Leaf Area Index / FPAR Aqua",
+    "description": "Estimates leaf cover and light absorption using Aqua observations.",
+    "use": "Monitor plant canopy conditions.",
+    "query": "MYD15A2H"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Land Cover Type Yearly",
+    "description": "Classifies land into categories such as forests, crops and grasslands.",
+    "use": "Map land use and cover.",
+    "query": "MCD12Q1"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Nadir BRDF-Adjusted Reflectance",
+    "description": "Provides a clearer comparison of land colour by accounting for viewing and lighting angles.",
+    "use": "Compare land surfaces over time.",
+    "query": "MCD43A4"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "MODIS Burned Area Monthly",
+    "description": "Maps where satellite observations indicate land burned during a month.",
+    "use": "Track fire-affected areas.",
+    "query": "MCD64A1"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "VIIRS Vegetation Indices 500m",
+    "description": "Shows vegetation greenness derived from newer VIIRS satellite observations.",
+    "use": "Follow vegetation changes.",
+    "query": "VNP13A1"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "VIIRS Daily Surface Reflectance",
+    "description": "Measures how land reflects light to help describe surface conditions.",
+    "use": "Detect land-cover changes.",
+    "query": "VNP09GA"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "HLS Landsat Surface Reflectance",
+    "description": "Combines harmonized Landsat imagery into analysis-ready surface reflectance.",
+    "use": "Detailed land monitoring.",
+    "query": "HLSL30"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "HLS Sentinel-2 Surface Reflectance",
+    "description": "Offers harmonized Sentinel-2 observations to complement Landsat coverage.",
+    "use": "Monitor farms and land cover.",
+    "query": "HLSS30"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "GEDI Level 2A Elevation and Height",
+    "description": "Uses space-based laser measurements to describe the height of land and vegetation.",
+    "use": "Measure canopy height.",
+    "query": "GEDI02_A"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "GEDI Level 2B Canopy Cover and Structure",
+    "description": "Uses laser measurements to estimate how dense and layered forests are.",
+    "use": "Understand forest structure.",
+    "query": "GEDI02_B"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "GEDI Level 4A Aboveground Biomass",
+    "description": "Estimates the mass of living vegetation above ground along GEDI observations.",
+    "use": "Estimate forest biomass.",
+    "query": "GEDI04_A"
+  },
+  {
+    "category": "Vegetation & Land",
+    "name": "ICESat-2 ATL08 Land and Vegetation Height",
+    "description": "Uses laser observations to estimate terrain and vegetation height.",
+    "use": "Study forests and land height.",
+    "query": "ATL08"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "MODIS Terra Land Surface Temperature Daily",
+    "description": "Estimates the temperature of the land's surface, which is not the same as air temperature.",
+    "use": "Map hot land surfaces.",
+    "query": "MOD11A1"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "MODIS Aqua Land Surface Temperature Daily",
+    "description": "Shows daily surface temperature using Aqua measurements.",
+    "use": "Explore land heating patterns.",
+    "query": "MYD11A1"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "VIIRS Land Surface Temperature Daily",
+    "description": "Measures temperatures of the land surface using VIIRS instruments.",
+    "use": "Monitor surface heat.",
+    "query": "VNP21A1D"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "ECOSTRESS Land Surface Temperature",
+    "description": "Measures detailed land surface temperatures at changing times of day.",
+    "use": "Study plant and city heat.",
+    "query": "ECO2LSTE"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "ECOSTRESS Evapotranspiration",
+    "description": "Estimates water moving from land and plants into the air.",
+    "use": "Assess plant water use.",
+    "query": "ECO2ETPTJPL"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "AIRS Daily Air Temperature and Humidity",
+    "description": "Provides atmospheric temperature and moisture observations from an infrared instrument.",
+    "use": "Study atmospheric conditions.",
+    "query": "AIRS3STD"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "AIRS Monthly Air Temperature and Humidity",
+    "description": "Summarizes AIRS atmospheric measurements by month.",
+    "use": "Explore seasonal air patterns.",
+    "query": "AIRS3STM"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "OMI Tropospheric Nitrogen Dioxide",
+    "description": "Estimates nitrogen dioxide in the lower atmosphere from satellite observations.",
+    "use": "Study air pollution patterns.",
+    "query": "OMNO2d"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "OMI Total Column Ozone",
+    "description": "Shows the amount of ozone through the full column of atmosphere.",
+    "use": "Monitor the ozone layer.",
+    "query": "OMTO3d"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "MERRA-2 Aerosol Diagnostics",
+    "description": "Provides modeled estimates of airborne particles such as dust and smoke.",
+    "use": "Study air quality and aerosols.",
+    "query": "M2T1NXAER"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "MERRA-2 Single-Level Diagnostics",
+    "description": "Provides a long-running model-based record of near-surface weather conditions.",
+    "use": "Study past weather conditions.",
+    "query": "M2T1NXSLV"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "OCO-2 Lite Atmospheric Carbon Dioxide",
+    "description": "Maps estimates of carbon dioxide in the atmosphere from the OCO-2 satellite.",
+    "use": "Study carbon dioxide changes.",
+    "query": "OCO2_L2_Lite_FP"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "OCO-3 Lite Atmospheric Carbon Dioxide",
+    "description": "Measures atmospheric carbon dioxide from an instrument on the space station.",
+    "use": "Observe carbon dioxide patterns.",
+    "query": "OCO3_L2_Lite_FP"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "CERES EBAF TOA Radiation",
+    "description": "Summarizes energy arriving at and leaving the top of Earth's atmosphere.",
+    "use": "Study Earth's energy balance.",
+    "query": "CERES_EBAF-TOA"
+  },
+  {
+    "category": "Heat, Air & Atmosphere",
+    "name": "CERES EBAF Surface Radiation",
+    "description": "Estimates the energy reaching and leaving Earth's surface.",
+    "use": "Understand surface energy.",
+    "query": "CERES_EBAF-Surface"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "NASA POWER Daily Point Data",
+    "description": "Gives location-based daily sunlight and weather-related values for planning and research.",
+    "use": "Explore solar and farm conditions.",
+    "query": "NASA POWER"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "CERES SYN1deg Daily Radiation",
+    "description": "Combines satellite data and models to describe daily sunlight and heat energy.",
+    "use": "Assess radiation patterns.",
+    "query": "CERES_SYN1deg-Day"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "CERES SYN1deg Monthly Radiation",
+    "description": "Offers monthly energy and radiation estimates across the globe.",
+    "use": "Compare seasonal solar energy.",
+    "query": "CERES_SYN1deg-Month"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "MERRA-2 Radiation Diagnostics",
+    "description": "Provides a modeled history of solar and other radiation conditions.",
+    "use": "Study past sunlight and heat.",
+    "query": "M2T1NXRAD"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "SRTM Global 1 Arc Second Elevation",
+    "description": "Maps ground elevation using radar measurements from a space shuttle mission.",
+    "use": "Study terrain and slopes.",
+    "query": "SRTMGL1"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "NASADEM Digital Elevation Model",
+    "description": "Provides an updated elevation map built from space-based terrain observations.",
+    "use": "Plan terrain-based analyses.",
+    "query": "NASADEM_HGT"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "ASTER Global Digital Elevation Model",
+    "description": "Creates a global map of land elevation using stereo satellite images.",
+    "use": "Explore mountain and valley shapes.",
+    "query": "ASTGTM"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "ICESat-2 ATL03 Photon Heights",
+    "description": "Provides laser photon measurements used to measure surfaces on Earth.",
+    "use": "Research precise surface heights.",
+    "query": "ATL03"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "ICESat-2 ATL06 Land Ice Height",
+    "description": "Tracks changes in the height of land ice sheets and glaciers.",
+    "use": "Study ice elevation change.",
+    "query": "ATL06"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "ICESat-2 ATL13 Inland Water Height",
+    "description": "Estimates heights of lakes, reservoirs and rivers along satellite tracks.",
+    "use": "Study inland water levels.",
+    "query": "ATL13"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "MODIS Terra Ocean Chlorophyll",
+    "description": "Estimates chlorophyll in surface waters, a clue to microscopic plant life.",
+    "use": "Study ocean biology.",
+    "query": "MODIS Terra chlorophyll"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "VIIRS Ocean Chlorophyll",
+    "description": "Shows chlorophyll estimates from VIIRS ocean-colour measurements.",
+    "use": "Monitor marine ecosystems.",
+    "query": "VIIRS chlorophyll"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "GHRSST MUR Sea Surface Temperature",
+    "description": "Combines observations to make a detailed global map of ocean surface temperature.",
+    "use": "Track ocean temperatures.",
+    "query": "MUR-JPL-L4-GLOB-v4.1"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "SMAP Sea Surface Salinity",
+    "description": "Estimates saltiness of the ocean surface using microwave observations.",
+    "use": "Study ocean freshwater changes.",
+    "query": "SMAP L3 sea surface salinity"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "SWOT Level 2 Lake Water Surface Elevation",
+    "description": "Uses radar measurements to describe lake water heights and shapes.",
+    "use": "Monitor lakes.",
+    "query": "SWOT_L2_HR_LakeSP"
+  },
+  {
+    "category": "Energy, Terrain & Oceans",
+    "name": "SWOT Level 2 River Water Surface Elevation",
+    "description": "Uses radar observations to estimate water heights along rivers.",
+    "use": "Study river water levels.",
+    "query": "SWOT_L2_HR_RiverSP"
+  }
+]
